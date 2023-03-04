@@ -44,8 +44,8 @@ namespace Mavi_Alarm
                             this.Hide();
                             Thread.Sleep(300000);
                             windowsMediaPlayer.URL = ".\\alarm.mp3";
-                            MessageBox.Show("Alarm Saati Geldi", "Süre Bitti", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             this.Show();
+                            MessageBox.Show("Alarm Saati Geldi", "Süre Bitti", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
 
@@ -98,7 +98,7 @@ namespace Mavi_Alarm
                 if (secenek == DialogResult.Yes)
                 {
                     Process.Start("cmd.exe", "/k taskkill /IM Mavi_Alarm.exe /F && exit");
-                    Process.Start("cmd.exe", "/k C:\\Mavi Alarm\\Mavi_Alarm.exe && exit");
+                    Process.Start("cmd.exe", "/k C:\\MaviAlarm\\Mavi_Alarm.exe && exit");
                 }
                 if (secenek == DialogResult.No)
                 {
