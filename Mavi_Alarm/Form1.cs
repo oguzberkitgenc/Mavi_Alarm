@@ -36,8 +36,17 @@ namespace Mavi_Alarm
                     {
                         this.Hide();
                         Thread.Sleep(300000);
+                        windowsMediaPlayer.URL = ".\\alarm.mp3";
                         this.Show();
-                        MessageBox.Show("Alarmın çalalı 5 dakika oldu", "Hatırlatma", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        DialogResult ertele2= MessageBox.Show("Erteleme süresi doldu. Tekrar 5 dakika ertelemek ister misiniz?", "Evet/Hayır", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                        if (ertele2==DialogResult.Yes)
+                        {
+                            this.Hide();
+                            Thread.Sleep(300000);
+                            windowsMediaPlayer.URL = ".\\alarm.mp3";
+                            MessageBox.Show("Alarm Saati Geldi", "Süre Bitti", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Show();
+                        }
                     }
 
                 }
@@ -84,11 +93,12 @@ namespace Mavi_Alarm
             Process[] processes = Process.GetProcessesByName(proccesName);
             if (processes.Length > 1)
             {
-                DialogResult secenek = MessageBox.Show("Alarm arka planda zaten çalışıyor. Çalışan alarmı kapatıp yeni alarm kurmak istermisin?", "Evet/Hayır", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult secenek = MessageBox.Show("Alarm arka planda zaten çalışıyor." +
+                    "\nÇalışan alarmı kapatıp yeni alarm kurmak istermisin?", "Evet/Hayır", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (secenek == DialogResult.Yes)
                 {
-                    Process.Start("cmd.exe", "/k taskkill /IM Mavi_Alarm.exe /F");
-                    Process.Start("cmd.exe", "/k C:\\Alarm\\Mavi_Alarm.exe");
+                    Process.Start("cmd.exe", "/k taskkill /IM Mavi_Alarm.exe /F && exit");
+                    Process.Start("cmd.exe", "/k C:\\Mavi Alarm\\Mavi_Alarm.exe && exit");
                 }
                 if (secenek == DialogResult.No)
                 {
