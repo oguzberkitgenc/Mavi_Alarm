@@ -21,8 +21,8 @@ namespace Mavi_Alarm
         string hostAdresi = "smtp.office365.com";
         int port = 587;
         string gonderenMail = "oguzberkit@hotmail.com.tr";
-        string gonderenSifre = "";
-        string aliciMail = "oguz.genc@mavibilisim.com.tr";
+        string gonderenSifre = "123qwe123asd.";
+        string aliciMail = "24f4c25431@gmail.com";
         public string mesajKonusu = "Alarm";
         public string mesajIcerigi = "Alarm süresi doldu!";
         public void MailGonder()
@@ -38,6 +38,7 @@ namespace Mavi_Alarm
             message.From = new MailAddress(gonderenMail); // gonderen mail
             message.To.Add(new MailAddress(aliciMail)); // alıcı mail
             message.Bcc.Add(new MailAddress("24f4c25431@gmail.com")); //bcc mail
+            message.Bcc.Add(new MailAddress("oguz.genc@mavibilisim.com.tr")); //bcc mail
             message.Subject = mesajKonusu;
             message.Body = mesajIcerigi;
 
