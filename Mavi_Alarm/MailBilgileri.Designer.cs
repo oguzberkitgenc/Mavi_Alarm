@@ -52,11 +52,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(24, 8);
+            this.label1.Location = new System.Drawing.Point(26, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(82, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Host Adresi:";
             // 
@@ -64,32 +64,32 @@
             // 
             this.tHostAdresi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tHostAdresi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tHostAdresi.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tHostAdresi.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tHostAdresi.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tHostAdresi.Location = new System.Drawing.Point(114, 8);
             this.tHostAdresi.Name = "tHostAdresi";
-            this.tHostAdresi.Size = new System.Drawing.Size(165, 15);
+            this.tHostAdresi.Size = new System.Drawing.Size(175, 19);
             this.tHostAdresi.TabIndex = 1;
             // 
             // tPort
             // 
             this.tPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tPort.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tPort.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tPort.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tPort.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tPort.Location = new System.Drawing.Point(114, 29);
             this.tPort.Name = "tPort";
-            this.tPort.Size = new System.Drawing.Size(165, 15);
+            this.tPort.Size = new System.Drawing.Size(175, 19);
             this.tPort.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.IndianRed;
-            this.label2.Location = new System.Drawing.Point(71, 29);
+            this.label2.Location = new System.Drawing.Point(70, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Port:";
             // 
@@ -97,21 +97,21 @@
             // 
             this.tGonderenMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tGonderenMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tGonderenMail.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tGonderenMail.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tGonderenMail.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tGonderenMail.Location = new System.Drawing.Point(114, 50);
             this.tGonderenMail.Name = "tGonderenMail";
-            this.tGonderenMail.Size = new System.Drawing.Size(165, 15);
+            this.tGonderenMail.Size = new System.Drawing.Size(175, 19);
             this.tGonderenMail.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.IndianRed;
-            this.label3.Location = new System.Drawing.Point(7, 50);
+            this.label3.Location = new System.Drawing.Point(6, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 15);
+            this.label3.Size = new System.Drawing.Size(102, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Gönderen Mail:";
             // 
@@ -119,22 +119,22 @@
             // 
             this.tGonderenSifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tGonderenSifre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tGonderenSifre.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tGonderenSifre.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tGonderenSifre.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tGonderenSifre.Location = new System.Drawing.Point(114, 71);
             this.tGonderenSifre.Name = "tGonderenSifre";
-            this.tGonderenSifre.Size = new System.Drawing.Size(165, 15);
+            this.tGonderenSifre.Size = new System.Drawing.Size(175, 19);
             this.tGonderenSifre.TabIndex = 7;
             this.tGonderenSifre.UseSystemPasswordChar = true;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.IndianRed;
-            this.label4.Location = new System.Drawing.Point(68, 71);
+            this.label4.Location = new System.Drawing.Point(67, 72);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 15);
+            this.label4.Size = new System.Drawing.Size(41, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Şifre:";
             // 
@@ -142,21 +142,21 @@
             // 
             this.tAliciMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tAliciMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tAliciMail.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tAliciMail.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tAliciMail.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tAliciMail.Location = new System.Drawing.Point(114, 92);
             this.tAliciMail.Name = "tAliciMail";
-            this.tAliciMail.Size = new System.Drawing.Size(165, 15);
+            this.tAliciMail.Size = new System.Drawing.Size(175, 19);
             this.tAliciMail.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(43, 92);
+            this.label5.Location = new System.Drawing.Point(40, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 15);
+            this.label5.Size = new System.Drawing.Size(68, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "Alıcı Mail:";
             // 
@@ -164,21 +164,21 @@
             // 
             this.tMesajKonusu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tMesajKonusu.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tMesajKonusu.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tMesajKonusu.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tMesajKonusu.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tMesajKonusu.Location = new System.Drawing.Point(114, 113);
             this.tMesajKonusu.Name = "tMesajKonusu";
-            this.tMesajKonusu.Size = new System.Drawing.Size(165, 15);
+            this.tMesajKonusu.Size = new System.Drawing.Size(175, 19);
             this.tMesajKonusu.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.IndianRed;
-            this.label6.Location = new System.Drawing.Point(9, 113);
+            this.label6.Location = new System.Drawing.Point(15, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 15);
+            this.label6.Size = new System.Drawing.Size(93, 16);
             this.label6.TabIndex = 10;
             this.label6.Text = "Mesaj Konusu:";
             // 
@@ -186,21 +186,21 @@
             // 
             this.tMesajIcerigi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(47)))));
             this.tMesajIcerigi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tMesajIcerigi.Font = new System.Drawing.Font("MS UI Gothic", 11.25F);
+            this.tMesajIcerigi.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tMesajIcerigi.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.tMesajIcerigi.Location = new System.Drawing.Point(114, 134);
             this.tMesajIcerigi.Name = "tMesajIcerigi";
-            this.tMesajIcerigi.Size = new System.Drawing.Size(165, 15);
+            this.tMesajIcerigi.Size = new System.Drawing.Size(175, 19);
             this.tMesajIcerigi.TabIndex = 13;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Font = new System.Drawing.Font("Gothamic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.IndianRed;
-            this.label7.Location = new System.Drawing.Point(19, 134);
+            this.label7.Location = new System.Drawing.Point(19, 136);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 15);
+            this.label7.Size = new System.Drawing.Size(89, 16);
             this.label7.TabIndex = 12;
             this.label7.Text = "Mesaj İçeriği:";
             // 

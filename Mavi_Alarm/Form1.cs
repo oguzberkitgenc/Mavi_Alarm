@@ -39,7 +39,7 @@ namespace Mavi_Alarm
                     if (ertele == DialogResult.Yes)
                     {
                         this.Hide();
-                        Thread.Sleep(2500);
+                        Thread.Sleep(300000);
                         windowsMediaPlayer.URL = ".\\alarm.mp3";
                         this.Show();
                         f.mesajKonusu =f.mesajKonusu + " - Ertelenen Alarm";
@@ -48,7 +48,7 @@ namespace Mavi_Alarm
                         if (ertele2 == DialogResult.Yes)
                         {
                             this.Hide();
-                            Thread.Sleep(2500);
+                            Thread.Sleep(300000);
                             windowsMediaPlayer.URL = ".\\alarm.mp3";
                             this.Show();
                             f.mesajIcerigi = f.mesajIcerigi + " - İlk alarmdan 10 dakika geçti. Bir daha erteleme olmayacak.";

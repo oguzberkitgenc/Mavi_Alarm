@@ -21,7 +21,7 @@ namespace Mavi_Alarm
         string hostAdresi = "smtp.office365.com";
         int port = 587;
         string gonderenMail = "oguzberkit@hotmail.com.tr";
-        string gonderenSifre = "123qwe123asd.";
+        string gonderenSifre = "";
         string aliciMail = "oguz.genc@mavibilisim.com.tr";
         public string mesajKonusu = "Alarm";
         public string mesajIcerigi = "Alarm süresi doldu!";
